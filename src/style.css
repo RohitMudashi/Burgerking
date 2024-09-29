@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #f5ebdc;
+    
+}
+
+.head1{
+    height: 50px;
+    width: 100%;  
+    position: sticky;
+    top: 0px;
+    display: flex;
+    border:  0px solid black;
+    box-shadow: 0px 1px 1px grey;
+    background-color: #f5ebdc;
+} 
+.image{
+    height: 50px;
+    width: 50%;
+}
+.image img{
+    height: 25px;
+    width: 25px;
+    margin-left: 125px;
+    margin-top: 10px;
+}
+
+.buttons{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buttons img{
+    height: 45px;
+    width: 45px;
+    margin-right: 200px;
+}
+
+.button1{
+    
+    padding: 7px 25px; 
+    background-color: red;
+    color: white;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+.button2{
+    padding: 7px 25px; 
+    background-color: #502314;
+    color: white;
+    margin-right:20px ;
+    border-radius: 50px;
+}
+
+.head2{
+    height: 400px;
+    width: 100%;
+}
+
+
+.xy{
+    height: 400px;
+    width: 80%;
+    display: flex;  
+}
+
+.xx .x{
+    height: 400px;
+    width: 60%;
+}
+
+.x h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: rgb(80, 35, 20);
+    line-height: 1.125em;
+    text-align: left;
+    font-weight: 1000;
+    padding-top: 50px;
+}
+
+.x .b1{
+    font-size: 18px;
+     border-radius: 9999px;
+     background-color: brown;
+     color: white;
+     padding: 15px 70px;
+     margin-right: 125px;
+     font-family:Flame-Bold;
+}
+
+.x .b2{
+    font-size: 18px;
+     border-radius: 9999px;
+     border-color: brown;
+     color: brown;
+     padding: 15px 70px;    
+     margin-right: 115px;
+     font-family:Flame-Bold;
+
+}
+
+.xx .y{
+    height: 400px;  
+}
+
+.y img{
+    height: 400px;
+    width: 80%;
+}
+
+
+.body{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 1500;
+    width: 100%;
+    
+}
+
+.body .minbody{
+    height: 1500px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+     border-radius: 18px;
+}
+
+.minbody .card{
+     width: 47%;
+     height: 500px;
+     display: flex;
+     flex-direction: column;
+   
+}
+
+.card img{
+    width: 100%;
+    height: 220px;
+     border-radius:  18px 18px 0px 0px; 
+}
+
+.card .card-body{
+    height:220px ;
+    padding: 10px;
+    background-color: white;
+     border-radius: 0px 0px 18px 18px; 
+   
+}
+
+.card-body h1{
+    color: #502314;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 0px 20px 0px ;
+}
+
+.card-body p{
+    line-height: 20px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: #502314;
+    font-family: Flame-RegularSans;;
+}
+
+.card-body h4{
+    text-decoration: underline;
+    color: #502314;
+    
+}
+
+.card-body button{
+   
+    margin-left: 300px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 40px;
+    border: 1px solid rgb(214, 35, 0);
+    color: rgb(214, 35, 0);
+    font-weight: bold;
+   
+}
+
+.foot{
+    height: 500px;
+    width: 100%;
+  
+}
+
+.footer{
+    height:500px ;
+    width: 80%;
+    display: flex;
+    
+}
+ 
+.footer .foot1{
+    height: 500px;
+    width: 50%;
+    
+}
+.foot1 img{
+    height: 400px;
+    padding-right: 50px;
+}
+
+.footer .foot2{
+    height: 500px;
+    width: 50%;
+
+}
+
+.foot2 h1{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.125em;
+    color: rgb(80, 35, 20);
+    text-align: left;
+    line-height: 1.125em;
+    padding-bottom: 20px;
+
+    
+}
+
+.foot2 h3{
+
+    font-family:Flame-Bold;
+    line-height: 25px;
+    color: rgb(80, 35, 20);
+    text-align: left;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+.foot2 .img1{
+    height: 60px;
+    width: 200px;
+   
+}
+
+.img2{
+    height: 50px;
+    width: 200px;
+    margin-right: 105px;
+    
+}
+.lastfooter{
+    height: 50px;
+    background-color: #502314;
+    text-align: center;
+    position: sticky;
+    bottom: 0px;
+    padding-top: 15px;
+    color: white;
+}
